@@ -9,7 +9,11 @@
 wel = "\t\tWelcome to Hangperson!\nThis should all be pretty self-explanatory but. . . \nAll lowercase."
 wel += "\n\tWanna play?  'y' to continue, any other key will exit.\t"
 menu = input(wel)
+turn = 7
+while turn > 0:
     if menu == "y":
         continue
     else:
         break
+    #Clear output
+    

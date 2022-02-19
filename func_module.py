@@ -7,9 +7,6 @@ def guess(s_list, h_list, g):
             h_list[i] = g
         else:
             continue
-      
-
-
 
 def get_word(som_list):
     word = random.choice(som_list)
@@ -23,7 +20,7 @@ def set_word(stri):
     return hid_let, sec_let
 
 
-def check_turns(hid_let, sec_let, turn):
+def check_turns(hid_let, turn):
     if "_ " not in hid_let:
         print(f'You did it!\n!!WINNER!!\n {hid_let}')
         turn = 0
