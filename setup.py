@@ -1,19 +1,21 @@
-#checker
+import random
+from func_module import *
 
-    #if "_ "  not in hid_letters:
-        #
-    #elif 
 
-#print(f'\tPrevious guesses:\n{s_list}')
-        #print(h_list)
+w_list = [
+    "balance", "gutter", "theater", "temple", "attract", "architect", "national", "garbage", "throw",
+    "eyebrow", "venture", "unaware", "medicine", "outline", "spring", "dragon", "execution", "traction"
+    ]
+
 wel = "\t\tWelcome to Hangperson!\nThis should all be pretty self-explanatory but. . . \nAll lowercase."
 wel += "\n\tWanna play?  'y' to continue, any other key will exit.\t"
-menu = input(wel)
 turn = 7
-while turn > 0:
+menu = input(wel)
+while True:
+    
     if menu == "y":
-        continue
-    else:
-        break
-    #Clear output
+        #clearO
+        while turn > 0:
+            gue = input("What letter you wanna try?\t")
+            guess(set_word(get_word(w_list)))
     
